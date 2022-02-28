@@ -51,7 +51,7 @@ public class Foco {
         return "Foco{" + "color=" + color + ", tipo=" + tipo + ", tamano=" + tamano + '}';
     }
     
-    
+ 
     
     
 }
