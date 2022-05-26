@@ -11,7 +11,7 @@ JAR files manifest file (MANIFEST.MF).
 To run the project from the command line, go to the dist folder and
 type the following:
 
-java -jar "JavaBasico2209Parte2.jar" 
+java -jar "JavaBasico2209parte2.jar" 
 
 To distribute this project, zip up the dist folder (including the lib folder)
 and distribute the ZIP file.
@@ -29,8 +29,4 @@ the projects runtime path.
 * To set a main class in a standard Java project, right-click the project node
 in the Projects window and choose Properties. Then click Run and enter the
 class name in the Main Class field. Alternatively, you can manually type the
-<<<<<<< HEAD
 class name in the manifest Main-Class element.
-=======
-class name in the manifest Main-Class element.
->>>>>>> a6fb0cc1c0e965f6e56362b9140a030a6ccbbd74

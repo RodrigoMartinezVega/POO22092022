@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -7,11 +6,11 @@ package ico.fes;
 
 /**
  *
- * @author Emiliano
+ * @author david
  */
 public class Aritmetica {
     private int a;
-    private int b ;
+    private int b;
 
     public Aritmetica() {
     }
@@ -43,61 +42,11 @@ public class Aritmetica {
     }
     
     public int sumar(){
-        return this.a + this.b;
+        return this.a+ this.b;
     }
-    public int dividir () throws ArithmeticException{
-       return this.a / this.b;
-    }
-}
-=======
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package ico.fes;
-
-/**
- *
- * @author Emiliano
- */
-public class Aritmetica {
-    private int a;
-    private int b ;
-
-    public Aritmetica() {
-    }
-
-    public Aritmetica(int a, int b) {
-        this.a = a;
-        this.b = b;
-    }
-
-    public int getB() {
-        return b;
-    }
-
-    public void setB(int b) {
-        this.b = b;
-    }
-
-    public int getA() {
-        return a;
-    }
-
-    public void setA(int a) {
-        this.a = a;
-    }
-
-    @Override
-    public String toString() {
-        return "Aritmetica{" + "a=" + a + ", b=" + b + '}';
+    public int dividir()throws ArithmeticException{
+        return this.a/this.b;
     }
     
-    public int sumar(){
-        return this.a + this.b;
-    }
-    public int dividir () throws ArithmeticException{
-       return this.a / this.b;
-    }
+    
 }
->>>>>>> a6fb0cc1c0e965f6e56362b9140a030a6ccbbd74
